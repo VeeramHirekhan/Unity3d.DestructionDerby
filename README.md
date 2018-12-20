@@ -20,3 +20,35 @@ We currently have two levels for the player to play through as of right now. The
 
 # User interface
 Our user interface is a title screen, and of course the actual game. The interface in the game play will be a set of health bars, a minimap, and narration from the Gerry to signify events of the game and story. The UI will also contain a quit game, restart game, and next level buttons each performing their corresponding responsibilities. The health bars will go up or down depending on if you’ve been hit or have picked up the health boost. The minimap will show the other competitors in the game and the surroundings of the player. The minimap will follow the player so it stays focused on the player giving them a central view of the level.
+
+## Main Menu:
+![image](https://user-images.githubusercontent.com/22080320/50307060-4659a980-0465-11e9-843e-c0ecad936d42.png)
+
+
+## Crashing into cars and health bars on the top left:
+![image](https://user-images.githubusercontent.com/22080320/50307213-be27d400-0465-11e9-9b02-3ddde0bcba14.png)
+
+
+## Regular driving shot:
+![image](https://user-images.githubusercontent.com/22080320/50307227-c7b13c00-0465-11e9-9118-a6d316b8489e.png)
+
+
+## EndGame (if you win):
+![image](https://user-images.githubusercontent.com/22080320/50307235-ced84a00-0465-11e9-90cd-31f32f14e86d.png)
+
+
+# Artifical Intelligence
+Opponent AI
+	Enemy cars: sports cars, trucks, buses
+Enemies react by driving around the cities’ roads, dodging the other opponents.  Enemies have passive, aggressive, and vulnerable attributes.  When the Enemy is passive, they roam the streets attacking players when near.  When aggressive, they attack the first player that hit them, or they go after the lowest health opponent.  When vulnerable, they search for the nearest health drop or flee from the nearby opponents.
+
+Non-player Characters
+	Random Traffic: Random cars that are not opponents and are there for immersion.
+
+  Opponents in cars: Drive against enemy cars.
+
+Reactive Items
+Health Drops:  Health orbs spawn around the map giving the player/opponents a health boost.
+
+Destructible Objects: Objects scattered around the map that either the player or opponents can crash into and destroy for good. 
+
